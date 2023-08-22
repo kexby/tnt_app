@@ -1,0 +1,18 @@
+# Запросы для плагина REST Client
+###
+
+GET http://localhost:8081/get_btc_rate_history
+###
+
+GET http://localhost:8081/get_btc_rate_actual
+###
+
+GET http://rest.coinapi.io/v1/exchangerate/BTC/USDT
+X-CoinAPI-Key: 707E2659-E986-4804-BD14-5206C881F0A0
+###
+
+GET http://rest.coinapi.io/v1/exchangerate/USD?apikey=707E2659-E986-4804-BD14-5206C881F0A0&invert=true&output_format=json
+
+###
+GET http://rest.coinapi.io/v1/exchanges
+X-CoinAPI-Key: 707E2659-E986-4804-BD14-5206C881F0A0
